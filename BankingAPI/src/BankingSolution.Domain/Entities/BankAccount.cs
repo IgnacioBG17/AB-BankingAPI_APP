@@ -3,7 +3,7 @@
     public class BankAccount
     {
         public Guid Id { get; set; }
-        public string AccountNumber { get; set; } = null!; // único
+        public string AccountNumber { get; set; } = null!;
         public decimal Balance { get; set; }
         public Guid ClientId { get; set; }
         public Client Client { get; set; } = null!;

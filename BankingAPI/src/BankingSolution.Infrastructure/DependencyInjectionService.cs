@@ -12,6 +12,7 @@ namespace BankingSolution.Infrastructure
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
+
             return services;
         }
     }

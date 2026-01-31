@@ -12,6 +12,9 @@ namespace BankingSolution.Infrastructure.Repositories
         {
             _context = context;
         }
+
+        public BankingSolutionDbContext BankingSolutionDbContext => _context;
+
         public async Task<int> Complete()
         {
             try

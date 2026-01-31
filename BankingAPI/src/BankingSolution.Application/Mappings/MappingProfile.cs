@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using BankingSolution.Application.Features.Accounts.Commands.CreateAccount;
-using BankingSolution.Application.Features.Accounts.Commands.CreateClient;
-using BankingSolution.Application.Features.Accounts.Querys.Vms;
+using BankingSolution.Application.Features.Clients.Commands.CreateClient;
+using BankingSolution.Application.Features.Transactions.Queries.Vms;
 using BankingSolution.Domain.Entities;
 
 namespace BankingSolution.Application.Mappings
@@ -18,6 +18,7 @@ namespace BankingSolution.Application.Mappings
                 .ForMember(d => d.Balance, o => o.Ignore());
 
             // Entities -> VMs
+            CreateMap<Transaction, TransactionVm>();
             CreateMap<Transaction, TransactionVm>()
                 .ForMember(d => d.Type, o => o.MapFrom(s => s.Type.ToString()));
         }

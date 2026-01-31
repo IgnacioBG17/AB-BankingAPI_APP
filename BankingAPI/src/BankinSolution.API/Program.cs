@@ -1,5 +1,5 @@
 using BankingSolution.Application;
-using BankingSolution.Application.Features.Accounts.Querys.GetBalanceByAccount;
+using BankingSolution.Application.Features.Accounts.Queries.GetBalanceByAccount;
 using BankingSolution.Infrastructure;
 using BankingSolution.Infrastructure.Persistence;
 using BankinSolution.API;
@@ -50,7 +50,7 @@ app.UseMiddleware<ExceptionMiddleware>(); /* Middleware Personalizado */
 app.UseAuthorization();
 app.MapControllers();
 
-/* Cargar la data inicial en la BD */
+/* Cargar la data inicial en la BD y la migración*/
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
