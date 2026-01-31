@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a11a1111-1111-4a11-8111-aaaaaaaaaaaa",
+    "accountNumber": "CR-1001",
+    "balance": 0.00,
+    "clientId": "e1a1d6b4-8f3a-4f9c-9a6b-111111111111"
+  },
+  {
+    "id": "a22a2222-2222-4a22-8222-bbbbbbbbbbbb",
+    "accountNumber": "MP-2001",
+    "balance": 0.00,
+    "clientId": "b2c2f3a6-7e9b-4a3d-9c2d-222222222222"
+  },
+  {
+    "id": "a23a2323-2323-4a23-8233-cccccccccccc",
+    "accountNumber": "MP-2002",
+    "balance": 0.00,
+    "clientId": "b2c2f3a6-7e9b-4a3d-9c2d-222222222222"
+  },
+  {
+    "id": "a33a3333-3333-4a33-8333-dddddddddddd",
+    "accountNumber": "LG-3001",
+    "balance": 0.00,
+    "clientId": "c3d3e4f7-1a2b-4c9d-8e7f-333333333333"
+  }
+]

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9531614E-264B-42F7-B735-1CF174180EA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C00EC66D-141B-4C9E-9557-A80089BD6F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{70204B8F-BCC2-415D-A610-EFF535FC62E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankinSolution.API", "src\BankinSolution.API\BankinSolution.API.csproj", "{5DC5F8C6-46F2-48CD-A20C-03F0EF8D6EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSolution.Domain", "src\BankingSolution.Domain\BankingSolution.Domain.csproj", "{308F5596-CF89-4807-B3CB-17A92D77886A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSolution.Application", "src\BankingSolution.Application\BankingSolution.Application.csproj", "{E59A7387-A089-4DDC-A71A-B67CE5E525A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C48C855D-02D5-4C27-AA6A-31B738592576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSolution.Infrastructure", "src\BankingSolution.Infrastructure\BankingSolution.Infrastructure.csproj", "{D37AF0E5-6712-4BF3-90FA-9184431AE506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC5F8C6-46F2-48CD-A20C-03F0EF8D6EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC5F8C6-46F2-48CD-A20C-03F0EF8D6EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC5F8C6-46F2-48CD-A20C-03F0EF8D6EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC5F8C6-46F2-48CD-A20C-03F0EF8D6EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308F5596-CF89-4807-B3CB-17A92D77886A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308F5596-CF89-4807-B3CB-17A92D77886A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308F5596-CF89-4807-B3CB-17A92D77886A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308F5596-CF89-4807-B3CB-17A92D77886A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59A7387-A089-4DDC-A71A-B67CE5E525A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59A7387-A089-4DDC-A71A-B67CE5E525A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59A7387-A089-4DDC-A71A-B67CE5E525A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59A7387-A089-4DDC-A71A-B67CE5E525A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37AF0E5-6712-4BF3-90FA-9184431AE506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37AF0E5-6712-4BF3-90FA-9184431AE506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37AF0E5-6712-4BF3-90FA-9184431AE506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37AF0E5-6712-4BF3-90FA-9184431AE506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9531614E-264B-42F7-B735-1CF174180EA6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C00EC66D-141B-4C9E-9557-A80089BD6F2A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{70204B8F-BCC2-415D-A610-EFF535FC62E2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5DC5F8C6-46F2-48CD-A20C-03F0EF8D6EC3} = {9531614E-264B-42F7-B735-1CF174180EA6}
+		{308F5596-CF89-4807-B3CB-17A92D77886A} = {C00EC66D-141B-4C9E-9557-A80089BD6F2A}
+		{E59A7387-A089-4DDC-A71A-B67CE5E525A5} = {C00EC66D-141B-4C9E-9557-A80089BD6F2A}
+		{C48C855D-02D5-4C27-AA6A-31B738592576} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D37AF0E5-6712-4BF3-90FA-9184431AE506} = {70204B8F-BCC2-415D-A610-EFF535FC62E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71BB69F6-DFD8-43FB-9F64-CC550E47BB9A}
+	EndGlobalSection
+EndGlobal

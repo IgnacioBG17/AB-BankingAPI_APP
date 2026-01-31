@@ -1,0 +1,23 @@
+[
+  {
+    "id": "e1a1d6b4-8f3a-4f9c-9a6b-111111111111",
+    "name": "Carlos Rodríguez",
+    "dateOfBirth": "1985-04-12T00:00:00Z",
+    "sex": "M",
+    "income": 2500.50
+  },
+  {
+    "id": "b2c2f3a6-7e9b-4a3d-9c2d-222222222222",
+    "name": "María Pérez",
+    "dateOfBirth": "1990-08-30T00:00:00Z",
+    "sex": "F",
+    "income": 3500.00
+  },
+  {
+    "id": "c3d3e4f7-1a2b-4c9d-8e7f-333333333333",
+    "name": "Luis Gómez",
+    "dateOfBirth": "1978-01-05T00:00:00Z",
+    "sex": "M",
+    "income": 1500.00
+  }
+]
